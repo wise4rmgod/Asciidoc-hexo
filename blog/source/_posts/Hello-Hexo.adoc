@@ -1,0 +1,67 @@
+---
+title: Implementation of Firebase App Distribution in Android Development
+date: 2022-08-16 16:25:29
+tags:
+---
+
+= Implementation of Firebase App Distribution in Android Development
+Wisdom Nwokocha <wise4rmgod@gmail.com>
+
+image::https://miro.medium.com/max/1400/1*2H2wzDBa6mzBaPN5DpcQ_g.jpeg[Figure 1.]
+
+Firebase App Distribution makes distributing your apps to trusted testers painless. By getting your apps onto testers’ devices quickly, you can get feedback early and often. And if you use Crashlytics in your apps, you’ll automatically get stability metrics for all your builds, so you know when you’re ready to ship.
+
+> Firebase App Distribution is a beta release. This means that the functionality might change in backward-incompatible ways. A beta release is not subject to any SLA or deprecation policy and may receive limited or no support.
+
+== Get Started
+
+In this article, you will learn how to distribute your Android app to users/testers using Firebase App Distribution.
+From the IOS background, they have been using test flight to distribute their apps to testers, it has really made it easy to test an IOS app and distribute it.
+All Thanks to the Firebase Team to add this feature to Firebase, it's now easy to distribute Android apps to tester securely.
+
+== Prerequisite
+* Basic knowledge of Android development
+* Basic knowledge of https://firebase.google.com/docs[Firebase]
+* Android studio Installed
+* Kotlin Programming language
+
+== Set Up Firebase App Distribution
+
+*Step 1:* Go to https://console.firebase.google.com/
+
+Sign in to your dashboard and click App Distribution
+
+image::https://miro.medium.com/max/1400/1*vlzSIezBQLubi7msJQr_iw.png[Figure 2.]
+
+Click the check box to accept the Firebase Crashlytics and App Distribution Terms of Service.
+
+Then Click the *Get started* button
+
+*Step 2:* Drag an Apk or browse on your computer
+
+image::https://miro.medium.com/max/1400/1*3I70THkM-zrRqe-Ahzd-Qw.png[Figure 3.]
+
+In the *Release Tab*, you can drag an APK file to begin the upload process or you browse your PC to locate the saved location of you Signed APK.
+In the **Invite links Tab**, you will be able to create an invite link for your tester.
+
+In the **Tester & Groups Tab**, you will be able to create a group for each tester, see the list of testers in each group, and delete testers.
+
+**Step 3:** Navigate to Tester & Groups Tab
+
+image::https://miro.medium.com/max/1400/1*iRhgFyub-T4z-1R8Bx7Ytg.png[Figure 4.]
+
+Create a group for your app testers, so click on “ Add group”
+
+image::https://miro.medium.com/max/1400/1*wWspBgBdEQwVR7_kbsFRvw.png[Figure 5.]
+
+give your group a name and proceed
+
+image::https://miro.medium.com/max/1400/1*pgzbf2JeSYwPVJObclt4ag.png[Figure 6.]
+
+image::https://miro.medium.com/max/1400/1*9wBpVVwFDT7aU3mOY6hTwg.png[Figure 6.]
+
+The App Tester group is empty because it has no tester in it.
+
+**Step 4:** Navigate to Invite Links Tab
+
+Click on **“New invite link”**
